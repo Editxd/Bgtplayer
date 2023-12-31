@@ -22,8 +22,8 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
 UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/BikashHalderNew/Bgtplayer")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "bikash")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/BikashGadgetsTech")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/Bgt_Chat")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/The_Meme_team_channel")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/TrueFriendsFamily")
 SUPPORT_HEHE = SUPPORT_GROUP.split("me/")[1]
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "180"))
 SONG_DOWNLOAD_DURATION = int(getenv("SONG_DOWNLOAD_DURATION_LIMIT", "180"))
@@ -44,7 +44,7 @@ PLAYLIST_FETCH_LIMIT = int(getenv("PLAYLIST_FETCH_LIMIT", "50"))
 CLEANMODE_DELETE_MINS = int(getenv("CLEANMODE_MINS", "12"))
 TG_AUDIO_FILESIZE_LIMIT = int(getenv("TG_AUDIO_FILESIZE_LIMIT", "104857600"))
 TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", "1073741824"))
-SET_CMDS = getenv("SET_CMDS", False)
+SET_CMDS = getenv("SET_CMDS", True)
 # https://www.gbmb.org/mb-to-bytes
 
 STRING1 = getenv("STRING_SESSION", None)
@@ -69,20 +69,20 @@ clean = {}
 autoclean = []
 ############################
 
-START_IMG_URL = getenv("START_IMG_URL", "https://te.legra.ph/file/c8135608b7f9f77541a82.jpg")
-PING_IMG_URL = getenv("PING_IMG_URL", "https://te.legra.ph/file/3127b3484676bd2254e97.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://graph.org/file/cd4a9f151491205f9f7d5.jpg")
+PING_IMG_URL = getenv("PING_IMG_URL", "https://graph.org/file/cd4a9f151491205f9f7d5.jpg")
 
-PLAYLIST_IMG_URL = "https://te.legra.ph/file/c8135608b7f9f77541a82.jpg"
-GLOBAL_IMG_URL = "https://te.legra.ph/file/2e2741f5dfe9f62eed91d.png"
-STATS_IMG_URL = "https://te.legra.ph/file/2be94fc76030833b51a78.png"
-TELEGRAM_AUDIO_URL = "https://graph.org/file/d68f9ff85714d4dbc6069.png"
+PLAYLIST_IMG_URL = "https://graph.org/file/cd4a9f151491205f9f7d5.jpg"
+GLOBAL_IMG_URL = "https://graph.org/file/cd4a9f151491205f9f7d5.jpg"
+STATS_IMG_URL = "https://graph.org/file/cd4a9f151491205f9f7d5.jpg"
+TELEGRAM_AUDIO_URL = "https://graph.org/file/cd4a9f151491205f9f7d5.jpg"
 TELEGRAM_VIDEO_URL = "https://graph.org/file/d68f9ff85714d4dbc6069.png"
-STREAM_IMG_URL = "https://graph.org/file/93882ae5ea01a7bf687b1.jpg"
-SOUNCLOUD_IMG_URL = "https://graph.org/file/0d021735560cbf0bb749a.jpg"
-YOUTUBE_IMG_URL = "https://graph.org/file/4a8cc770a5bea2136bada.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://graph.org/file/8427fca139bcbf3c54bcb.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://graph.org/file/8427fca139bcbf3c54bcb.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://graph.org/file/8427fca139bcbf3c54bcb.jpg"
+STREAM_IMG_URL = "https://graph.org/file/cd4a9f151491205f9f7d5.jpg"
+SOUNCLOUD_IMG_URL = "https://graph.org/file/cd4a9f151491205f9f7d5.jpg"
+YOUTUBE_IMG_URL = "https://graph.org/file/cd4a9f151491205f9f7d5.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://graph.org/file/cd4a9f151491205f9f7d5.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://graph.org/file/cd4a9f151491205f9f7d5.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://graph.org/file/cd4a9f151491205f9f7d5.jpg"
 
 
 def time_to_seconds(time):
@@ -108,9 +108,9 @@ if UPSTREAM_REPO:
 if PING_IMG_URL:
     if PING_IMG_URL != "resources/Ping.jpeg":
         if not re.match("(?:http|https)://", PING_IMG_URL):
-            PING_IMG_URL = "https://te.legra.ph/file/3127b3484676bd2254e97.jpg"
+            PING_IMG_URL = "https://graph.org/file/cd4a9f151491205f9f7d5.jpg"
 
 if START_IMG_URL:
     if START_IMG_URL != "resources/Ping.jpeg":
         if not re.match("(?:http|https)://", START_IMG_URL):
-            START_IMG_URL = "https://te.legra.ph/file/c8135608b7f9f77541a82.jpg"
+            START_IMG_URL = "https://graph.org/file/cd4a9f151491205f9f7d5.jpg"
