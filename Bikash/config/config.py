@@ -70,18 +70,18 @@ autoclean = []
 ############################
 
 START_IMG_URL = getenv("START_IMG_URL", "https://graph.org/file/cd4a9f151491205f9f7d5.jpg")
-PING_IMG_URL = getenv("PING_IMG_URL", "https://graph.org/file/cd4a9f151491205f9f7d5.jpg")
+PING_IMG_URL = getenv("PING_IMG_URL", "https://graph.org/file/b0ba145b521364b3c2c0d.jpg")
 
-PLAYLIST_IMG_URL = "https://graph.org/file/cd4a9f151491205f9f7d5.jpg"
-GLOBAL_IMG_URL = "https://graph.org/file/cd4a9f151491205f9f7d5.jpg"
-STATS_IMG_URL = "https://graph.org/file/cd4a9f151491205f9f7d5.jpg"
-TELEGRAM_AUDIO_URL = "https://graph.org/file/cd4a9f151491205f9f7d5.jpg"
-TELEGRAM_VIDEO_URL = "https://graph.org/file/d68f9ff85714d4dbc6069.png"
+PLAYLIST_IMG_URL = "https://graph.org/file/dcdb71efc1c6a895317f7.jpg"
+GLOBAL_IMG_URL = "https://graph.org/file/dcdb71efc1c6a895317f7.jpg"
+STATS_IMG_URL = "https://graph.org/file/bb271611e3b475c4dd856.jpg"
+TELEGRAM_AUDIO_URL = "https://graph.org/file/bb271611e3b475c4dd856.jpg"
+TELEGRAM_VIDEO_URL = "https://graph.org/file/bb271611e3b475c4dd856.jpg"
 STREAM_IMG_URL = "https://graph.org/file/cd4a9f151491205f9f7d5.jpg"
 SOUNCLOUD_IMG_URL = "https://graph.org/file/cd4a9f151491205f9f7d5.jpg"
-YOUTUBE_IMG_URL = "https://graph.org/file/cd4a9f151491205f9f7d5.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://graph.org/file/cd4a9f151491205f9f7d5.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://graph.org/file/cd4a9f151491205f9f7d5.jpg"
+YOUTUBE_IMG_URL = "https://graph.org/file/aef0aec65aabf96ac7a85.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://graph.org/file/aef0aec65aabf96ac7a85.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://graph.org/file/aef0aec65aabf96ac7a85.jpg"
 SPOTIFY_PLAYLIST_IMG_URL = "https://graph.org/file/cd4a9f151491205f9f7d5.jpg"
 
 
